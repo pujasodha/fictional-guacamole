@@ -17,7 +17,7 @@ Questions taken:
 11. Write a program that computes
         4\cdot \sum_{k=1}^{10^6} \frac{(-1)^{k+1}}{2k-1} = 4\cdot(1-1/3+1/5-1/7+1/9-1/11\ldots).
 
-##Lists, Strings
+## Lists, Strings
 If your language of choice doesn’t have a build in list and/or string type (e.g. you use C), these exercises should also be solvable for arrays. However, some solutions are very different between an array-based list (like C++’s vector) and a pointer based list (like C++’s list), at least if you care about the efficiency of your code. So you might want to either find a library, or investigate how to implement your own linked list if your language doesn’t have it.
 
 1. Write a function that returns the largest element in a list.
@@ -67,7 +67,7 @@ If your language of choice doesn’t have a build in list and/or string type (e.
 16. Implement a balanced binary search tree of your choice. I like (a,b)-trees best.
 17. Compare the performance of insertion, deletion and search on your unbalanced search tree with your balanced search tree and a sorted list. Think about good input sequences. If you implemented an (a,b)-tree, think about good values of a and b.
 
-##Advanced
+## Advanced
 1. Given two strings, write a program that efficiently finds the longest common subsequence.
 2. Given an array with numbers, write a program that efficiently answers queries of the form: “Which is the nearest larger value for the number at position i?”, where distance is the difference in array indices. For example in the array [1,4,3,2,5,7], the nearest larger value for 4 is 5. After linear time preprocessing you should be able to answer queries in constant time.
 3. Given two strings, write a program that outputs the shortest sequence of character insertions and deletions that turn one string into the other.
@@ -75,12 +75,12 @@ If your language of choice doesn’t have a build in list and/or string type (e.
 5. Implement a van Emde Boas tree. Compare it with your previous search tree implementations.
 6. Given a set of d-dimensional rectangular boxes, write a program that computes the volume of their union. Start with 2D and work your way up.
 
-##GUI
+## GUI
 1. Write a program that displays a bouncing ball.
 2. Write a Memory game.
 3. Write a Tetris clone
 
-##Open Ended
+## Open Ended
 1. Write a program that plays Hangman as good as possible. For example you can use a large dictionary like this and select the letter that excludes most words that are still possible solutions. Try to make the program as efficient as possible, i.e. don’t scan the whole dictionary in every turn.
 2. Write a program that plays Rock, Paper, Scissors better than random against a human. Try to exploit that humans are very bad at generating random numbers.
 3. Write a program that plays Battle Ship against human opponents. It takes coordinates as input and outputs whether that was a hit or not and its own shot’s coordinates.
