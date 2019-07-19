@@ -1,0 +1,23 @@
+{
+  "name": "fictional-guacamole",
+  "version": "1.0.0",
+  "description": "Programming Problems beginning to end - source: https://adriann.github.io/programming_problems.html",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pujasodha/fictional-guacamole.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pujasodha/fictional-guacamole/issues"
+  },
+  "homepage": "https://github.com/pujasodha/fictional-guacamole#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
